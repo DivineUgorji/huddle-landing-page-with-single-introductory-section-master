@@ -3,9 +3,6 @@
   --color-soft-magenta: hsl(300, 69%, 71%);
   --color-primary-white: hsl(0, 0%, 100%);
 
-  /* --font-family-regular: "Poppins", sans-serif;
-  --font-family-bold: "Open Sans", sans-serif; */
-
   --font-family-regular: "Open Sans", sans-serif;
   --font-family-bold: "Poppins", sans-serif;
 
@@ -119,14 +116,14 @@ main {
 .button {
   color: var(--color-violet);
   background: var(--color-primary-white);
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-family-bold);
   cursor: pointer;
   border: none;
   padding: 0.71rem 4.7rem 0.61rem 4.74rem;
   border-radius: 1.25rem;
-  font-family: var(--font-family-bold);
   font-size: 0.75rem;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.125rem;
   margin-top: 1.5rem;
   display: inline-block;
@@ -150,8 +147,8 @@ main {
 icon {
   cursor: pointer;
   font-size: 1rem;
-  color: #fff;
-  border: 1px solid #fff;
+  color: var(--color-primary-white);
+  border: 1px solid var(--color-primary-white);
   border-radius: 50%;
   padding: 0.5rem 0.6rem;
 }
@@ -170,8 +167,6 @@ icon:hover {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* padding: 0 2%; */
-    /* padding-left: 2rem; */
   }
 
   .logo {
@@ -186,6 +181,7 @@ icon:hover {
 
   .image-container {
     margin-top: 5.7rem;
+    margin-left: 2.5rem;
   }
 
   .image-container img {
@@ -195,14 +191,14 @@ icon:hover {
   .card-container {
     display: flex;
     flex-direction: row;
+    gap: 2rem;
     justify-content: space-between;
   }
 
   .content-container {
     display: grid;
     align-content: left;
-    width: 68%;
-    padding-left: 1rem;
+    width: 75%;
     padding-bottom: 2rem;
   }
 
@@ -237,6 +233,7 @@ icon:hover {
     border-radius: 1.75rem;
     max-width: 12.5rem;
     width: auto;
+    transition: all 0.2s;
     box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
     margin-top: 1.5rem;
   }
@@ -244,6 +241,7 @@ icon:hover {
   .button:hover {
     color: var(--color-primary-white);
     background-color: var(--color-soft-magenta);
+    transform: translateY(-0.25rem);
   }
 
   .icon-container {

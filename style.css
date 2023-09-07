@@ -180,7 +180,7 @@ icon:hover {
   }
 
   .image-container {
-    margin-top: 5.7rem;
+    margin-top: 5.5rem;
     margin-left: 2.5rem;
   }
 
@@ -199,7 +199,7 @@ icon:hover {
     display: grid;
     align-content: left;
     width: 75%;
-    padding-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .content-container__title {

@@ -1,6 +1,6 @@
-![](images/github-header-image.png)
-
 # Frontend Mentor - Huddle landing page with single introductory section solution
+
+![](design/desktop-preview.jpg)
 
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
@@ -8,7 +8,6 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,14 +24,10 @@ Users should be able to:
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](design/desktop-preview.jpg)
-
 ### Links
 
-- [Solution URL:](https://your-solution-url.com)
-- [Live Site URL:](https://your-live-site-url.com)
+- [Solution URL](https://github.com/DivineUgorji/huddle-landing-page-with-single-introductory-section-master)
+- [Live Site URL](https://huddle-landing-page-with-single-divi.netlify.app/)
 
 ## My process
 
